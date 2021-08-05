@@ -1,0 +1,21 @@
+.IconWrapper {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.TechRow {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Title {
+  margin-top: 10px;
+}
+
+.TechButtonRow {
+  justify-content: center;
+  margin-top: 25px;
+}

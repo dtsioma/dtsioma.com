@@ -39,24 +39,34 @@ const Home: FC = () => {
               <About />
             </div>
           </Row>
-          <div className={styles.CardWrapper}>
+          <div className={styles.CardSection}>
             <Row>
               <Link href="/tech">
-                <Card title="technologies" icon={faCode} colorHex="#3f51b5" />
+                <div className={styles.CardWrapper}>
+                  <Card title="technologies" icon={faCode} colorName="tech" />
+                </div>
               </Link>
             </Row>
             <Row>
               <Link href="/projects">
-                <Card title="projects" icon={faPaintBrush} colorHex="#e91e63" />
+                <div className={styles.CardWrapper}>
+                  <Card
+                    title="projects"
+                    icon={faPaintBrush}
+                    colorName="projects"
+                  />
+                </div>
               </Link>
             </Row>
             <Row>
               <Link href="/contact">
-                <Card
-                  title="contact me"
-                  icon={faPaperPlane}
-                  colorHex="#009688"
-                />
+                <div className={styles.CardWrapper}>
+                  <Card
+                    title="contact me"
+                    icon={faPaperPlane}
+                    colorName="contact-me"
+                  />
+                </div>
               </Link>
             </Row>
           </div>

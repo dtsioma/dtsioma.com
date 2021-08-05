@@ -18,6 +18,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@iconify/react": "^3.0.0-beta.1",
     "@types/react": "17.0.15",
     "@types/react-fontawesome": "^1.6.5",
     "eslint": "7.32.0",

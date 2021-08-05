@@ -4,7 +4,7 @@
 }
 
 .Name {
-  color: var(--color-light);
+  color: var(--light);
   font-size: 1.5em;
   font-style: italic;
   font-weight: 700;
@@ -15,7 +15,7 @@
 }
 
 .Button {
-  color: var(--color-light);
+  color: var(--light);
   padding: 5px 10px;
   text-decoration: none;
   font-size: 1.5em;

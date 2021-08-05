@@ -1,10 +1,6 @@
 .Header {
   padding: 15px 0;
   background-color: var(--darkest);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
 }
 
 .Name {

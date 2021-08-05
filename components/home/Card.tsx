@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, forwardRef } from "react";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,10 @@ interface CardProps {
   colorHex: string;
 }
 
-const Card: FC<CardProps> = ({ title, icon, colorHex }) => {
+const Card = forwardRef(function Card(
+  { title, icon, colorHex }: CardProps,
+  ref
+) {
   return (
     <div className={styles.Card}>
       <div className={styles.CardHeader} style={{ color: colorHex }}>
@@ -22,6 +25,6 @@ const Card: FC<CardProps> = ({ title, icon, colorHex }) => {
       </div>
     </div>
   );
-};
+});
 
 export default Card;

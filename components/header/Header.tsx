@@ -1,10 +1,11 @@
-import styles from "./Header.module.css";
+import { FC } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import Container from "../general/Container";
 import Row from "../general/Row";
+import styles from "./Header.module.css";
 
-export default function Header() {
+const Header: FC = () => {
   const githubUrl = "https://github.com/dtsioma";
   const linkedInUrl = "https://www.linkedin.com/in/dtsioma/";
 
@@ -25,4 +26,6 @@ export default function Header() {
       </Container>
     </header>
   );
-}
+};
+
+export default Header;

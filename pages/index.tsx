@@ -11,8 +11,9 @@ import {
 import Container from "../components/general/Container";
 import Row from "../components/general/Row";
 import styles from "./index.module.css";
+import { FC } from "react";
 
-export default function Home() {
+const Home: FC = () => {
   return (
     <div>
       <Head>
@@ -63,4 +64,6 @@ export default function Home() {
       </main>
     </div>
   );
-}
+};
+
+export default Home;

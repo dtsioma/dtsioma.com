@@ -1,6 +1,7 @@
+import { FC } from "react";
 import styles from "./About.module.css";
 
-export default function About() {
+const About: FC = () => {
   return (
     <>
       <h2 className={styles.Heading}>about me</h2>
@@ -16,4 +17,6 @@ export default function About() {
       </p>
     </>
   );
-}
+};
+
+export default About;

@@ -1,0 +1,20 @@
+.Header {
+  padding: 15px 0;
+  background-color: var(--darkest);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.Name {
+  color: var(--color-light);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.Button {
+  color: var(--color-light);
+  padding: 5px 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,7 @@
+.PhotoWrapper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}

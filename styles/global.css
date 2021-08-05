@@ -1,0 +1,35 @@
+:root {
+  --darkest: #181818;
+  --darker: #212121;
+  --color-light: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--darker);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.button {
+  display: inline-block;
+  padding: 7px 15px;
+}

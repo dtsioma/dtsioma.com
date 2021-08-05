@@ -10,6 +10,10 @@
   font-weight: 700;
 }
 
+.Buttons {
+  margin-left: auto;
+}
+
 .Button {
   color: var(--color-light);
   padding: 5px 10px;

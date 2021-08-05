@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import About from "../components/home/About";
-import Card from "../components/home/Card";
+import About from "../components/home/about/About";
+import Card from "../components/home/card/Card";
 import {
   faCode,
   faPaintBrush,
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
-import Container from "../components/general/Container";
-import Row from "../components/general/Row";
+import Container from "../components/general/container/Container";
+import Row from "../components/general/row/Row";
 import styles from "./index.module.css";
 import { FC } from "react";
 

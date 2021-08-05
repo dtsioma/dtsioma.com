@@ -2,11 +2,11 @@ import { FC, useState } from "react";
 import Head from "next/head";
 import { Icon } from "@iconify/react";
 import { getTechnologies, Technology } from "../lib/tech";
-import Container from "../components/general/Container";
-import Row from "../components/general/Row";
-import Heading from "../components/general/Heading";
+import Container from "../components/general/container/Container";
+import Row from "../components/general/row/Row";
+import Heading from "../components/general/heading/Heading";
 import styles from "./tech.module.css";
-import { Button } from "../components/general/Button";
+import { Button } from "../components/general/button/Button";
 
 export const getStaticProps = async () => {
   const technologies = getTechnologies();

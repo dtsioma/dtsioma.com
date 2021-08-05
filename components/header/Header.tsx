@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import Container from "../general/Container";
@@ -13,7 +14,9 @@ const Header: FC = () => {
     <header className={styles.Header}>
       <Container>
         <Row className={styles.HeaderRow}>
-          <span className={styles.Name}>Daniil Tsioma</span>
+          <Link href="/">
+            <span className={styles.Name}>Daniil Tsioma</span>
+          </Link>
           <div className={styles.Buttons}>
             <a href={linkedInUrl} className={styles.Button}>
               <FontAwesomeIcon icon={faLinkedinIn} />

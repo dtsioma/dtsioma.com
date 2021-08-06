@@ -40,14 +40,14 @@ const Home: FC = () => {
           </div>
           <div className={styles.CardSection}>
             <Row>
-              <Link href="/tech">
+              <Link href="/tech" passHref>
                 <div className={styles.CardWrapper}>
                   <Card title="technologies" icon={faCode} colorName="tech" />
                 </div>
               </Link>
             </Row>
             <Row>
-              <Link href="/projects">
+              <Link href="/projects" passHref>
                 <div className={styles.CardWrapper}>
                   <Card
                     title="projects"
@@ -58,7 +58,7 @@ const Home: FC = () => {
               </Link>
             </Row>
             <Row>
-              <Link href="/contact">
+              <Link href="/contact" passHref>
                 <div className={styles.CardWrapper}>
                   <Card
                     title="contact me"

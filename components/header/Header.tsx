@@ -17,7 +17,7 @@ const Header: FC = () => {
     <header className={styles.Header}>
       <Container>
         <Row className={styles.HeaderRow}>
-          <Link href="/">
+          <Link href="/" passHref>
             <span className={styles.Name}>
               <FontAwesomeIcon
                 icon={faLongArrowAltLeft}

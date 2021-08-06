@@ -1,0 +1,29 @@
+.Control {
+  width: 100%;
+  background-color: var(--darker);
+  border: 1px solid var(--darkest);
+  margin-bottom: 10px;
+  padding: 10px;
+  color: var(--light);
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.Textarea {
+  resize: none;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Validation {
+  display: flex;
+  align-items: center;
+}
+
+.ValidationItem:not(:first-child) {
+  margin-left: 10px;
+}

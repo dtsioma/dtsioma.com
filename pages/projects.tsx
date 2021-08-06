@@ -1,10 +1,11 @@
 import Head from "next/head";
 import { FC } from "react";
-import { prototype } from "react-fontawesome";
 import Container from "../components/general/container/Container";
+import Row from "../components/general/row/Row";
 import Heading from "../components/general/heading/Heading";
 import Preview from "../components/projects/preview/Preview";
 import { getProjects, Project } from "../lib/projects";
+import styles from "./css/projects.module.css";
 
 export const getStaticProps = () => {
   const projects = getProjects();
@@ -21,7 +22,7 @@ interface ProjectsProps {
 
 const Projects: FC<ProjectsProps> = ({ projects }) => {
   return (
-    <>
+    <main className="main">
       <Head>
         <title>Projects /// Daniil Tsioma</title>
       </Head>
@@ -29,7 +30,7 @@ const Projects: FC<ProjectsProps> = ({ projects }) => {
         <Heading colorName="projects" centered>
           Projects
         </Heading>
-        <div>
+        <Row className={styles.ProjectsRow}>
           {projects.map((prj, idx) => (
             <Preview
               key={`project-${idx}-${prj.id}`}
@@ -41,9 +42,9 @@ const Projects: FC<ProjectsProps> = ({ projects }) => {
               technologies={prj.technologies}
             />
           ))}
-        </div>
+        </Row>
       </Container>
-    </>
+    </main>
   );
 };
 

@@ -7,9 +7,41 @@
   float: left;
   margin: 0 15px 5px 0;
 }
+@media screen and (min-width: 768px) {
+  .PhotoWrapper {
+    width: 100px;
+    height: 100px;
+  }
+}
 
-.Main {
-  padding: 15px 0;
+.HomeRow {
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .HomeRow {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.AboutWrapper {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .AboutWrapper {
+    width: calc(50% - 10px);
+  }
+}
+
+.CardSection {
+  width: 100%;
+  margin-top: 1em;
+}
+@media screen and (min-width: 768px) {
+  .CardSection {
+    width: calc(50% - 20px);
+    margin-top: 0;
+  }
 }
 
 .CardWrapper {

@@ -1,9 +1,10 @@
-.IconWrapper {
-  width: 25%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 25px;
+.TechHeading {
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .TechHeading {
+    margin-bottom: 30px;
+  }
 }
 
 .TechRow {
@@ -11,11 +12,39 @@
   justify-content: center;
 }
 
+.TechWrapper {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .TechWrapper {
+    margin-bottom: 30px;
+  }
+}
+
+.TechIcon {
+  width: 50px;
+  height: 50px;
+}
+@media screen and (min-width: 768px) {
+  .TechIcon {
+    width: 75px;
+    height: 75px;
+  }
+}
+
 .Title {
   margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .Title {
+    margin-top: 15px;
+  }
 }
 
 .TechButtonRow {
   justify-content: center;
-  margin-top: 25px;
 }

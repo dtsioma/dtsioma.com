@@ -15,7 +15,7 @@ import { FC } from "react";
 
 const Home: FC = () => {
   return (
-    <div>
+    <main className="main">
       <Head>
         <title>Daniil Tsioma</title>
         <meta
@@ -23,22 +23,20 @@ const Home: FC = () => {
           content="Front End Developer in Happy Valley, OR"
         />
       </Head>
-      <main className={styles.Main}>
-        <Container>
-          <Row>
-            <div className={styles.AboutWrapper}>
-              <div className={styles.PhotoWrapper}>
-                <Image
-                  src="/images/me.jpg"
-                  blurDataURL="/images/me_small.jpg"
-                  layout="fill"
-                  objectFit="cover"
-                  placeholder="blur"
-                />
-              </div>
-              <About />
+      <Container>
+        <Row className={styles.HomeRow}>
+          <div className={styles.AboutWrapper}>
+            <div className={styles.PhotoWrapper}>
+              <Image
+                src="/images/me.jpg"
+                blurDataURL="/images/me_small.jpg"
+                layout="fill"
+                objectFit="cover"
+                placeholder="blur"
+              />
             </div>
-          </Row>
+            <About />
+          </div>
           <div className={styles.CardSection}>
             <Row>
               <Link href="/tech">
@@ -70,9 +68,9 @@ const Home: FC = () => {
               </Link>
             </Row>
           </div>
-        </Container>
-      </main>
-    </div>
+        </Row>
+      </Container>
+    </main>
   );
 };
 

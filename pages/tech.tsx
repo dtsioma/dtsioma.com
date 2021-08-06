@@ -25,18 +25,18 @@ const Tech: FC<TechProps> = ({ technologies }) => {
   const [showFullList, setShowFullList] = useState<boolean>(false);
 
   return (
-    <>
+    <main className="main">
       <Head>
         <title>Technologies I use /// Daniil Tsioma</title>
       </Head>
       <Container>
-        <Heading colorName="tech" centered>
+        <Heading colorName="tech" centered headingClass={styles.TechHeading}>
           Technologies
         </Heading>
         <Row className={styles.TechRow}>
           {technologies.slice(0, 8).map((tech, idx) => (
-            <div className={styles.IconWrapper} key={`tech-${idx}-${tech.id}`}>
-              <Icon icon={tech.icon} width="50" height="50" />
+            <div className={styles.TechWrapper} key={`tech-${idx}-${tech.id}`}>
+              <Icon icon={tech.icon} className={styles.TechIcon} />
               <span className={styles.Title}>{tech.title}</span>
             </div>
           ))}
@@ -45,10 +45,10 @@ const Tech: FC<TechProps> = ({ technologies }) => {
           <Row className={styles.TechRow}>
             {technologies.slice(8).map((tech, idx) => (
               <div
-                className={styles.IconWrapper}
+                className={styles.TechWrapper}
                 key={`tech-${idx}-${tech.id}`}
               >
-                <Icon icon={tech.icon} width="50" height="50" />
+                <Icon icon={tech.icon} className={styles.TechIcon} />
                 <span className={styles.Title}>{tech.title}</span>
               </div>
             ))}
@@ -67,7 +67,7 @@ const Tech: FC<TechProps> = ({ technologies }) => {
           </Row>
         )}
       </Container>
-    </>
+    </main>
   );
 };
 

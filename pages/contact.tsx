@@ -5,7 +5,7 @@ import ContactForm from "../components/contact/form/ContactForm";
 
 const Contact = () => {
   return (
-    <>
+    <main className="main">
       <Head>
         <title>Contact Me /// Daniil Tsioma</title>
       </Head>
@@ -15,7 +15,7 @@ const Contact = () => {
         </Heading>
         <ContactForm />
       </Container>
-    </>
+    </main>
   );
 };
 

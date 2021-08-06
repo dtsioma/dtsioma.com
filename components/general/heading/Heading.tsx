@@ -5,12 +5,18 @@ interface HeadingProps {
   children: JSX.Element | string;
   colorName: string;
   centered?: boolean;
+  headingClass?: string;
 }
 
-const Heading: FC<HeadingProps> = ({ children, colorName, centered }) => {
+const Heading: FC<HeadingProps> = ({
+  children,
+  colorName,
+  centered,
+  headingClass,
+}) => {
   return (
     <h1
-      className={styles.Heading}
+      className={[styles.Heading, headingClass || ""].join(" ")}
       style={{
         color: `var(--${colorName}-color)`,
         textAlign: centered ? "center" : "left",

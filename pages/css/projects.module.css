@@ -1,0 +1,8 @@
+.ProjectsRow {
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .ProjectsRow {
+    justify-content: space-between;
+  }
+}

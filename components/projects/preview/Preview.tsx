@@ -34,10 +34,11 @@ const Preview: FC<PreviewProps> = ({
       <strong className={styles.Title}>{title}</strong>
       <p className={styles.Paragraph}>{description}</p>
       <div className={styles.Tech}>
-        {technologies.map((techId) => {
+        {technologies.map((techId, idx) => {
           const iconId = getTechnologyIcon(techId);
           return (
             <Icon
+              key={`tech-${idx}-${techId}`}
               icon={iconId}
               width="20"
               height="20"

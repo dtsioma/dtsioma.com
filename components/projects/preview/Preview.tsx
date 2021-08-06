@@ -25,6 +25,7 @@ const Preview: FC<PreviewProps> = ({
     <div className={styles.Preview}>
       <div className={styles.PreviewImage}>
         <Image
+          alt={title}
           src={imageUrl}
           layout="fill"
           objectFit="contain"

@@ -28,6 +28,7 @@ const Home: FC = () => {
           <div className={styles.AboutWrapper}>
             <div className={styles.PhotoWrapper}>
               <Image
+                alt="Daniil Tsioma"
                 src="/images/me.jpg"
                 blurDataURL="/images/me_small.jpg"
                 layout="fill"

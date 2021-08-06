@@ -62,7 +62,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
     >
       {({ errors, touched }) => (
-        <Form id="contactForm">
+        <Form id="contactForm" className={styles.Form}>
           <Field
             name="email"
             placeholder="email"

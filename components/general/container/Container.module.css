@@ -23,3 +23,8 @@
     width: 1140px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .Container {
+    width: 1320px;
+  }
+}

@@ -18,6 +18,12 @@
     height: 300px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .Preview {
+    height: 330px;
+    padding: 20px;
+  }
+}
 
 .PreviewImage {
   width: 109px;
@@ -38,6 +44,11 @@
     transform: skew(-20deg, 10deg) scale(2) translate(0, -20px);
   }
 }
+@media screen and (min-width: 1400px) {
+  .PreviewImage {
+    transform: skew(-20deg, 10deg) scale(2.5) translate(0, -20px);
+  }
+}
 
 .ProjectImage {
   opacity: 0.5;
@@ -49,6 +60,11 @@
 
 .Paragraph {
   padding-right: 120px;
+}
+@media screen and (min-width: 1400px) {
+  .Paragraph {
+    padding-right: 150px;
+  }
 }
 
 .Tech {
@@ -66,6 +82,12 @@
     height: 40px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .ProjectIcon {
+    width: 50px;
+    height: 50px;
+  }
+}
 
 .ProjectIcon:not(:first-child) {
   margin-left: 5px;
@@ -75,11 +97,21 @@
     margin-left: 10px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .ProjectIcon:not(:first-child) {
+    margin-left: 15px;
+  }
+}
 
 .ProjectLinks {
   display: flex;
   align-items: center;
   margin-top: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .ProjectLinks {
+    margin-top: 25px;
+  }
 }
 
 .ProjectLink {

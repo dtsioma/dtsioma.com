@@ -13,3 +13,13 @@
     width: 720px;
   }
 }
+@media screen and (min-width: 992px) {
+  .Container {
+    width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Container {
+    width: 1140px;
+  }
+}

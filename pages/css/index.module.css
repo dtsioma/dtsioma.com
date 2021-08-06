@@ -1,3 +1,9 @@
+@media screen and (min-width: 992px) {
+  .HomeMain {
+    padding: 50px;
+  }
+}
+
 .PhotoWrapper {
   width: 75px;
   height: 75px;
@@ -11,6 +17,13 @@
   .PhotoWrapper {
     width: 100px;
     height: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .PhotoWrapper {
+    width: 150px;
+    height: 150px;
+    margin: 0 25px 15px 0;
   }
 }
 
@@ -46,4 +59,5 @@
 
 .CardWrapper {
   width: 100%;
+  cursor: pointer;
 }

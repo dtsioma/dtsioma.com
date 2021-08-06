@@ -40,8 +40,6 @@ const Preview: FC<PreviewProps> = ({
             <Icon
               key={`tech-${idx}-${techId}`}
               icon={iconId}
-              width="20"
-              height="20"
               className={styles.ProjectIcon}
             />
           );

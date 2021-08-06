@@ -5,6 +5,11 @@
   border-radius: 5px;
   margin-bottom: 1em;
 }
+@media screen and (min-width: 992px) {
+  .Card {
+    padding: 20px 15px;
+  }
+}
 
 .CardHeader {
   display: flex;
@@ -13,8 +18,12 @@
 }
 
 .IconWrapper {
-  width: 30px;
-  margin-right: 5px;
+  width: 35px;
+}
+@media screen and (min-width: 992px) {
+  .IconWrapper {
+    width: 45px;
+  }
 }
 
 .Title {

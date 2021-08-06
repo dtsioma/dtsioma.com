@@ -13,6 +13,11 @@
     height: 250px;
   }
 }
+@media screen and (min-width: 992px) {
+  .Preview {
+    height: 300px;
+  }
+}
 
 .PreviewImage {
   width: 109px;
@@ -26,6 +31,11 @@
 @media screen and (min-width: 768px) {
   .PreviewImage {
     transform: skew(-20deg, 10deg) scale(1.75) translate(15px, -10px);
+  }
+}
+@media screen and (min-width: 992px) {
+  .PreviewImage {
+    transform: skew(-20deg, 10deg) scale(2) translate(0, -20px);
   }
 }
 
@@ -46,8 +56,24 @@
   align-items: center;
 }
 
+.ProjectIcon {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 992px) {
+  .ProjectIcon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .ProjectIcon:not(:first-child) {
   margin-left: 5px;
+}
+@media screen and (min-width: 992px) {
+  .ProjectIcon:not(:first-child) {
+    margin-left: 10px;
+  }
 }
 
 .ProjectLinks {
@@ -62,4 +88,9 @@
 
 .ProjectLink:not(:first-child) {
   margin-left: 10px;
+}
+@media screen and (min-width: 992px) {
+  .ProjectLink:not(:first-child) {
+    margin-left: 15px;
+  }
 }

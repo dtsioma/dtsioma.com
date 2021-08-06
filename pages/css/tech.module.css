@@ -6,6 +6,11 @@
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 992px) {
+  .TechHeading {
+    margin-bottom: 40px;
+  }
+}
 
 .TechRow {
   flex-wrap: wrap;
@@ -24,6 +29,11 @@
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 992px) {
+  .TechWrapper {
+    margin-bottom: 40px;
+  }
+}
 
 .TechIcon {
   width: 50px;
@@ -33,6 +43,12 @@
   .TechIcon {
     width: 75px;
     height: 75px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .TechIcon {
+    width: 100px;
+    height: 100px;
   }
 }
 

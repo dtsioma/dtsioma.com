@@ -23,9 +23,11 @@ const Header: FC = () => {
                 icon={faLongArrowAltLeft}
                 style={{
                   width: pathname === "/" ? 0 : "auto",
-                  marginRight: pathname === "/" ? 0 : "10px",
                 }}
-                className={styles.Back}
+                className={[
+                  styles.Back,
+                  pathname !== "/" && styles.MarginRight,
+                ].join(" ")}
               />
               Daniil Tsioma
             </span>

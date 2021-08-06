@@ -2,6 +2,11 @@
   max-width: 400px;
   margin: 0 auto;
 }
+@media screen and (min-width: 992px) {
+  .Form {
+    max-width: 500px;
+  }
+}
 
 .Control {
   width: 100%;

@@ -15,7 +15,7 @@ import { FC } from "react";
 
 const Home: FC = () => {
   return (
-    <main className="main">
+    <main className={[styles.HomeMain, "main"].join(" ")}>
       <Head>
         <title>Daniil Tsioma</title>
         <meta

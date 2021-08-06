@@ -27,22 +27,22 @@ const technologies: Technology[] = [
   {
     id: "javascript",
     title: "JavaScript",
-    icon: "logos:javascript",
+    icon: "vscode-icons:file-type-js-official",
   },
   {
     id: "typescript",
     title: "TypeScript",
-    icon: "logos:typescript-icon",
+    icon: "vscode-icons:file-type-typescript-official",
   },
   {
     id: "react",
     title: "React",
-    icon: "logos:react",
+    icon: "vscode-icons:file-type-reactjs",
   },
   {
     id: "nodejs",
     title: "Node.js",
-    icon: "logos:nodejs-icon",
+    icon: "vscode-icons:file-type-node",
   },
   {
     id: "nextjs",
@@ -52,7 +52,7 @@ const technologies: Technology[] = [
   {
     id: "graphql",
     title: "GraphQL",
-    icon: "logos:graphql",
+    icon: "vscode-icons:file-type-graphql",
   },
   {
     id: "python",

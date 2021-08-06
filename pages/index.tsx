@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Container from "../components/general/container/Container";
 import Row from "../components/general/row/Row";
-import styles from "./index.module.css";
+import styles from "./css/index.module.css";
 import { FC } from "react";
 
 const Home: FC = () => {

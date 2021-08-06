@@ -5,7 +5,6 @@ import Container from "../components/general/container/Container";
 import Heading from "../components/general/heading/Heading";
 import Preview from "../components/projects/preview/Preview";
 import { getProjects, Project } from "../lib/projects";
-import styles from "./projects.module.css";
 
 export const getStaticProps = () => {
   const projects = getProjects();

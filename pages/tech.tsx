@@ -5,7 +5,7 @@ import { getTechnologies, Technology } from "../lib/tech";
 import Container from "../components/general/container/Container";
 import Row from "../components/general/row/Row";
 import Heading from "../components/general/heading/Heading";
-import styles from "./tech.module.css";
+import styles from "./css/tech.module.css";
 import { Button } from "../components/general/button/Button";
 
 export const getStaticProps = async () => {

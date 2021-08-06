@@ -2,6 +2,11 @@ export const getTechnologies = () => {
   return technologies;
 };
 
+export const getTechnologyIcon = (id: string) => {
+  const { icon } = technologies.filter((tech) => tech.id === id)[0];
+  return icon;
+};
+
 export interface Technology {
   id: string;
   title: string;

@@ -1,0 +1,53 @@
+.Preview {
+  height: 215px;
+  background: var(--darker);
+  padding: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.PreviewImage {
+  width: 109px;
+  height: 175px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  transform: skew(-20deg, 10deg) scale(1.5);
+}
+
+.ProjectImage {
+  opacity: 0.5;
+}
+
+.Title {
+  font-size: 1.25em;
+}
+
+.Paragraph {
+  padding-right: 120px;
+}
+
+.Tech {
+  display: flex;
+  align-items: center;
+}
+
+.ProjectIcon:not(:first-child) {
+  margin-left: 5px;
+}
+
+.ProjectLinks {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ProjectLink {
+  color: var(--projects-color);
+}
+
+.ProjectLink:not(:first-child) {
+  margin-left: 10px;
+}

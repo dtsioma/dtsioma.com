@@ -15,7 +15,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>{/* favicon here */}</Head>
+        <Head>
+          <link rel="icon" href="/images/tsicon.svg" />
+        </Head>
         <body>
           <Main />
           <NextScript />

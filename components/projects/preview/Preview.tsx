@@ -47,10 +47,20 @@ const Preview: FC<PreviewProps> = ({
         })}
       </div>
       <div className={styles.ProjectLinks}>
-        <a href={liveUrl} target="_blank" className={styles.ProjectLink}>
+        <a
+          href={liveUrl}
+          target="_blank"
+          rel="noreferrer"
+          className={styles.ProjectLink}
+        >
           Website
         </a>
-        <a href={githubUrl} target="_blank" className={styles.ProjectLink}>
+        <a
+          href={githubUrl}
+          target="_blank"
+          rel="noreferrer"
+          className={styles.ProjectLink}
+        >
           Github
         </a>
       </div>

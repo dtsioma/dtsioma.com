@@ -14,14 +14,14 @@ export interface Project {
 
 const projects: Project[] = [
   {
-    id: "react-notesapp",
-    title: "Notes App",
+    id: "react-quizgame",
+    title: "Quiz Game",
     description:
-      "For my first React project, I decided to create basic app for making notes.",
-    imageUrl: "/images/notesapp.jpg",
-    liveUrl: "https://dtsioma-notesapp.herokuapp.com",
-    githubUrl: "https://github.com/dtsioma/notesapp",
-    technologies: ["react", "graphql"],
+      "Guess as many states by their shapes as you can, in a limited time.",
+    imageUrl: "/images/quizgame.jpg",
+    liveUrl: "https://master.d2h20q6weo0hz6.amplifyapp.com",
+    githubUrl: "https://github.com/dtsioma/quiz-game",
+    technologies: ["react"],
   },
   {
     id: "react-pogoda",
@@ -34,13 +34,13 @@ const projects: Project[] = [
     technologies: ["react"],
   },
   {
-    id: "react-quizgame",
-    title: "Quiz Game",
+    id: "react-notesapp",
+    title: "Notes App",
     description:
-      "Guess as many states by their shapes as you can, in a limited time.",
-    imageUrl: "/images/quizgame.jpg",
-    liveUrl: "https://master.d2h20q6weo0hz6.amplifyapp.com",
-    githubUrl: "https://github.com/dtsioma/quiz-game",
-    technologies: ["react"],
+      "For my first React project, I decided to create basic app for making notes.",
+    imageUrl: "/images/notesapp.jpg",
+    liveUrl: "https://dtsioma-notesapp.herokuapp.com",
+    githubUrl: "https://github.com/dtsioma/notesapp",
+    technologies: ["react", "graphql"],
   },
 ];

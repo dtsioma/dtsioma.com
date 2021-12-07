@@ -33,4 +33,14 @@ const projects: Project[] = [
     githubUrl: "https://github.com/dtsioma/pogoda",
     technologies: ["react"],
   },
+  {
+    id: "react-quizgame",
+    title: "Quiz Game",
+    description:
+      "Guess as many states by their shapes as you can, in a limited time.",
+    imageUrl: "/images/quizgame.jpg",
+    liveUrl: "https://master.d2h20q6weo0hz6.amplifyapp.com",
+    githubUrl: "https://github.com/dtsioma/quiz-game",
+    technologies: ["react"],
+  },
 ];

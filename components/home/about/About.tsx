@@ -6,19 +6,14 @@ const About: FC = () => {
     <>
       <h2 className={styles.Heading}>about me</h2>
       <p>
-        19 y.o. Ukrainian dude living in Portland, OR. Computer Science freshman
-        in Portland State University.
-      </p>
-      <p>
-        My web developer journey started in high school. At the time, I was
-        digging my way through the coal mines of freelance WordPress
-        development. Finally, I spotted the light at the{" "}
-        <i className={styles.IthoughtIvasInvisible}>front</i> end. That is where
-        I headed.
-      </p>
-      <p>
-        With three years of experience under my belt, I am excited to enter this
-        new chapter.
+        Hi, I am Daniil, and I live in Portland, Oregon. I am a Front End Web
+        developer and am currently studying Computer Science at Portland
+        University.
+        <p>
+          My goal is to develop products with user experience in mind. To create
+          this pleasant experience, I invest my time in both Front End and Back
+          end implementation to insure perfection in every part of the code.
+        </p>
       </p>
     </>
   );
